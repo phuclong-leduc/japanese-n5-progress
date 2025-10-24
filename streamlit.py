@@ -48,12 +48,12 @@ st.sidebar.header("My Study Plan")
 # Interactive widgets to adjust the learning plan
 start_date_input = st.sidebar.date_input(
     "Start Date", 
-    date(2025, 10, 17)
+    date(2025, 10, 24)
 )
 lessons_in_course_input = st.sidebar.number_input(
     "Total Lessons in Course", 
     min_value=1, 
-    value=25, 
+    value=28, 
     step=1
 )
 days_per_lesson_input = st.sidebar.number_input(
